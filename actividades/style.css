@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');      
+         
+*{
+    font-family: "Public Sans", serif;
+    padding: 0;
+    }
+body::-webkit-scrollbar {
+        display: none;
+    }
+html{
+        scroll-behavior: smooth;
+    }
+
+.menu{
+    background: #02212D;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    }
+        
+.menu header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 20px;
+}
+        
+.menu header .logo a{
+    font-size:46px;
+    color: white;
+    }
+        
+.menu header ul{
+    display: flex;
+    list-style: none;
+}
+        
+.menu header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+        
+}
+        
+.menu   header nav ul li a:hover{
+    color: #598392;
+    }
+
+
+.contenedor_html{
+    margin-top: 10rem;
+    .lec, .lec_css{
+        text-align: center;
+        margin-top: -3.8rem;
+        font-size: 1.3rem;
+    }
+    .titulo , .titulo_css{
+        font-size: 3.5rem;
+        text-align: center;
+        padding-bottom: 0rem;
+    }
+
+    }
+
+
+.titulo{
+    animation-name: titulo-animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+
+@keyframes titulo-animacion{
+        0%{
+            color: black;
+        }
+        100%{
+            color: rgb(127, 219, 255);
+        }
+        
+    }
+
+.titulo_css{
+    animation-name: titulo-animacion-css;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+
+@keyframes titulo-animacion-css{
+    0%{
+        color: black;
+    }
+    100%{
+        color:  #5A9E60;
+    }
+        
+}
+
+.lec{
+    animation-name: lec-animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+    }
+
+@keyframes lec-animacion{
+    0%{
+        color: black;
+    }
+    100%{
+        color: rgb(127, 219, 255);
+    }
+}
+
+.lec_css{
+    animation-name: lec-animacion-css;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+}
+
+@keyframes lec-animacion-css{
+    0%{
+        color: black;
+    }
+    100%{
+        color:  #5A9E60;
+    }
+}
+
+
+
+.contenedor_html .lecciones{
+    text-align: center;
+    div{
+
+        display: inline-block;
+        vertical-align: top;
+        padding: 3rem;
+    }
+    .subtitulo{
+        padding-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.ejer , .ejer_css{
+    display: inline-block;
+    transition: transform 0.1s ease;
+
+}
+
+.ejer:hover {
+    transform: scale(1.1);
+    color: #3498db;
+}
+.ejer_css:hover {
+    transform: scale(1.1);
+    color:  #5A9E60;
+}
+
+        
+
+
+
+        
+/*pie de pagina*/
+footer {
+    background-color: #02212D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-inline: -1rem; 
+    margin-bottom: -1rem;
+  }
+  
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #00aced;
+  }
+
+  footer div {
+    margin-top: 10px;
+  }
