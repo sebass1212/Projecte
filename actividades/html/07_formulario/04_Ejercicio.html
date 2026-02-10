@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header align="center">
+        <h1>SONY</h1>
+        <p>
+          Bienvenido a la pagina de Sony donde seleccionaras las 
+          caracteristicas de tu cámara ideal y te mostraremos los modelos que 
+          mejor se ajustan a tu elección.
+        </p>  
+      </header>
+
+      <br>
+      <br>
+
+    <form align="center">
+
+        <fieldset>
+
+            <legend>Camara</legend>
+
+            
+            <label>
+                Calidad de video
+                <select name="marca" required>
+                    <option value="" disabled selected>Selcciona una opcion</option>
+                    <option value="0">8K UHD</option>
+                    <option value="1">6K</option>
+                    <option value="2">5.7K</option>
+                    <option value="3">DCI 4K</option>
+                    <option value="4">UHD 4K</option>
+                    <option value="5">2K</option>
+                    <option value="6">Full HD 1080p</option>
+                    <option value="7">HD 720p</option>
+                </select>
+            </label>   
+
+            <br>
+            <br>
+
+            <label >
+                Velocidad de obturación
+                <select name="sensor" required>
+                    <option value="" disabled selected>Selecciona una opcion</option>
+                    <option value="0">1/4000s</option>
+                    <option value="1">1/8000s</option>
+                    <option value="2">30s</option>
+                    <option value="3">Bulb</option>
+                </select>
+            </label>
+
+            <br>
+            <br>
+
+            <label >
+                Tamaño del sensor
+                <select name="sensor" required>
+                    <option value="" disabled selected>Selecciona una opcion</option>
+                    <option value="0">Full Frame</option>
+                    <option value="1">APS-C</option>
+                    <option value="2">Micro Cuatro Tercios</option>
+                    <option value="3">1"</option>
+                    <option value="4">Super 35</option>
+                    <option value="5">Formato Medio</option>
+                </select>
+            </label>
+        
+            <br>
+            <br>
+
+            <label >
+                Puntos de enfoque
+                <select name="sensor" required>
+                    <option value="" disabled selected>Selecciona una opcion</option>
+                    <option value="0">759</option>
+                    <option value="1">399</option>
+                    <option value="2">121</option>
+                    <option value="3">99</option>
+                    <option value="4">45</option>
+                    <option value="5">9</option>
+                </select>
+            </label>
+        
+            <br>
+            <br>
+
+            <label>
+                Resolucion
+                <input type="number" min="12" max="100" validate required>
+            </label>
+
+            <br>
+            <br>
+
+            <button type="submit">
+                Buscar
+            </button>
+
+            <br>
+            <br>
+
+            <fieldset >
+                <legend>Opcionales</legend>
+
+                <div align="left">
+                   <label>
+                    Pantalla abatible
+                    <br>
+                    <select name="pantalla" >
+                        <option value="" disabled selected>Selecciona una opcion</option>
+                        <option value="0">Si</option>
+                        <option value="1">No</option>
+                    </select>
+                    </label> 
+                </div>
+                
+
+                <div align="right">
+                    <label>
+                    Visor
+                     <br>
+                     <select name="visor" >
+                         <option value="" >Selecciona una opcion</option>
+                         <option value="0">Óptico</option>
+                         <option value="1">Electrónico</option>
+                     </select>
+                     </label> 
+                 </div>
+
+                 <div align="left">
+                    <label>
+                    Sellado contra el clima
+                    <br>
+                    <select name="sellado" >
+                         <option value="" disabled selected>Selecciona una opcion</option>
+                         <option value="0">Si</option>
+                         <option value="1">No</option>
+                    </select>
+                    </label> 
+                 </div>
+
+                
+            </fieldset>
+
+        </fieldset>
+
+
+    </form>
+
+
+</body>
+</html>
