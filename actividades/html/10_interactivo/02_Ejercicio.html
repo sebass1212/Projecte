@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <fieldset>
+            <legend>Buscador de telefono</legend>
+
+            <label>
+                Marca de telefono<br>
+                <input list="marcas-telefono" type="text" name="marca" required>
+            </label>
+
+            <datalist id="marcas-telefono">
+                <option value="Samsung"></option>
+                <option value="Xiaomi"></option>
+                <option value="Realme"></option>
+                <option value="Apple"></option>
+                <option value="Oppo"></option>
+            </datalist> 
+            <br>
+            <br>
+            <label>
+                Rango de precio <br>
+                <select name="precio" required>
+                    <option value="" disabled selected>selecciona</option>
+                    <option value="-100">Menos de 100€</option>
+                    <option value="200-300">200-300€</option>
+                    <option value="300-400">300-400€</option>
+                    <option value="400-500">400-500€</option>
+                    <option value="500+">Mas de 500€</option>
+                </select>
+            </label>    
+            <br>
+            <br>
+
+            <button type="submit">
+                Buscar
+            </button>
+
+        </fieldset>
+    </form>
+    
+
+    
+
+
+
+</body>
+</html>
