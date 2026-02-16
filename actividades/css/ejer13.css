@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 20px;
+}
+
+:root{
+    --color-grey:#8f5220;
+    --color-verde:#4e814e;
+    --color-white:#ffff;
+    --color-black:#0000;
+}
+
+
+.fuente_2{
+    font-family: "BebasNeue", serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.borde_piz{
+background-color: var(--color-grey);
+width: 800px;
+height: 350px;
+border-radius: 12px;
+padding: 5px;
+
+
+}
+
+.pizarra{
+background-color: var(--color-verde);
+width: 760px;
+height: 310px;
+border-radius: 20px;
+text-align: center;
+color: white;
+}
+
+.fuente {
+font-family: "Darumadrop One", sans-serif;
+font-size: 40px;
+font-weight: 400;
+}
+
+.titulo_piz{
+    font-size: 70px;
+}
+.ejer{
+    font-size: 25px;
+}

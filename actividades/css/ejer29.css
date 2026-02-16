@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');        
+*{
+    margin: 0%;
+    font-family: "Playfair Display", serif;
+}
+
+.contenedor{
+
+    width: 13rem;
+    height: 40rem;
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px solid;
+    border-color: rgba(128, 128, 128, 0.486);
+}
+
+p.titulo{
+    font-size: 1.8rem;
+    
+}
+
+p.descrip{
+    font-size: 0.9rem;
+    width: 11.5rem;
+    padding-bottom: 1rem;
+}
+
+p.opaco{
+
+    opacity: 0.8;
+    font-size: 0.7rem;
+    width: 10rem;
+}
+p.precio{
+    margin-top: -1rem;
+    font-size: 2.5rem;
+
+}
+
+p.pregunta{
+    color: darkcyan;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+
+button{
+    border: 0;
+    color: white;
+    background-color:darkcyan ;
+    height: 2rem;
+    width: 11rem;
+    border-radius: 2px;
+    margin-block: 1rem 1rem;
+}
+sup{
+    font-size: 0.5rem;
+    margin-right: 0px;
+}
+
+.lista{
+
+    margin-left: -1.4rem;
+    list-style-position: outside;
+    li{
+        
+        padding-bottom: 0.7rem;
+        font-size: 1rem;
+        opacity: 0.8;
+
+        
+    }
+}
+
+.acerca{
+    margin-block: 1rem;
+    font-weight: 700;
+    a{
+        text-decoration: none;
+        color: rgb(1, 122, 122);
+    }
+}

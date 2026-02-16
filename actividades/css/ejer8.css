@@ -1,0 +1,35 @@
+:root{
+    --color-yellow:#febe00;
+    --color-blue:#0000FF;
+    --color-rebeccapurple:#663399;
+}
+
+p.texto{
+    .negrita{
+        font-weight: bold; 
+    }
+
+    .kodak{
+        color:var(--color-yellow);
+        font-weight: bold;
+    }
+
+
+    .year{
+        color: white;
+
+        .resaltado{
+            background-color: var(--color-blue);  
+            
+        }
+    }
+
+    .color{
+        color:var(--color-rebeccapurple) ;
+    }
+
+    .verde{
+        color: white;
+        background-color: green;
+    }
+}

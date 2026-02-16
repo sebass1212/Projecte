@@ -1,0 +1,32 @@
+:root{
+    --color-red:#FF0000;
+    --color-white:#ffff;
+    --color-grey:#e8e8e8;            
+}
+
+.color_red{
+    color: var(--color-red);
+}
+
+.nombre{
+    color: var(--color-white);
+    background-color: var(--color-red);
+}
+
+.writing{
+    background-color: var(--color-grey);
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+
+    
+}
+
+
+.fecha{
+    opacity: 0.5;
+}
+
+.writing h6 .color_red{
+    color: var(--color-red);
+}

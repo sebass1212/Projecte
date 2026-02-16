@@ -1,0 +1,19 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.contenedor img{
+    width: 100%;
+    display: block;
+}
+
+.texto{
+    position: absolute;
+    top: 20px; /* Ajusta la posición vertical */
+    left: 20px; 
+}

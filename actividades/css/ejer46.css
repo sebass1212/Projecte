@@ -1,0 +1,72 @@
+body{
+
+    margin: 0%;
+    height: 100vh;
+
+
+    animation-name: animacion-fondo;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+.sol{
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+
+}
+.luna{
+    position: absolute;
+    top: 10rem;
+    left: 22rem;
+
+}
+.luna circle {
+    animation-name: animacion-luna;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.sol circle {
+    animation-name: animacion-eclipse;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes animacion-fondo{
+    0%{
+        background-color:white;
+    }
+
+    100%{
+        background-color: rgb(56, 53, 53);
+    }
+}
+
+@keyframes animacion-eclipse {
+0% {
+    fill:yellow;
+}
+
+100% {
+    fill:rgb(54, 52, 52);
+}
+}
+
+@keyframes animacion-luna{
+    0%{
+        transform: translateX(0px); 
+    }
+
+    100%{
+        transform: translateX(100px); 
+    }
+}

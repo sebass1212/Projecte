@@ -1,0 +1,17 @@
+@keyframes animacion-rotacion {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .noria {
+  
+    animation-name: animacion-rotacion;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }

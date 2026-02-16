@@ -1,0 +1,13 @@
+:root{
+    --color-red:#FF0000;
+    
+}
+
+
+h1{
+    color: var(--color-red);
+}
+
+a{
+    color: var(--color-red);
+}

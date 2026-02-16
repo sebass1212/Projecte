@@ -1,0 +1,12 @@
+.explicacion {
+    max-height: 10rem;
+    overflow: auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 35rem;
+}
+h2 {
+    margin-top: 0;
+}
