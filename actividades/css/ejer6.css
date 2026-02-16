@@ -1,0 +1,21 @@
+:root{
+    --color-black:#000000;
+    --color-grey:#808080;
+    --color-white:#FFFFFF;
+}
+
+
+table {
+    background-color: var(--color-grey);
+
+    nav .nav_list a.nav__link{
+        text-decoration: none;
+        color: var(--color-black);
+        padding: 10px;
+    }         
+}
+
+.buscador{
+    width: 200px;
+    height: 15px;
+}

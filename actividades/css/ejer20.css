@@ -1,0 +1,105 @@
+.chat{
+    height: 800px;
+    width: 650px;
+    background-color: rgba(0, 255, 55, 0.178);
+    border-radius: 15px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.contacto{   
+    background-color: rgba(9, 255, 0, 0.274);
+    border-radius: 15px;
+    padding: 10px;
+ 
+    .nombre{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top:-52px;
+        margin-bottom: 20px;
+
+    }
+
+    .foto_perfil{
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    
+}
+
+.foto_perfil{
+    border-radius: 50%;
+    height: 60px;
+
+    
+}
+
+.mens_1 , .mens_2{
+    background-color: rgba(47, 255, 134, 0.733);
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    
+    p{
+        margin: 5px;
+    }
+}
+
+.remitente{
+    background-color: rgba(47, 255, 134, 0.733);
+    
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 76%;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    
+    p{
+        margin: 5px;
+    }
+}
+
+.time_recep time{
+    margin-left: 20px;
+    opacity: 0.4;
+    font-size: 0.8rem;
+}
+
+.time_remi time{
+    margin-left: 93%;
+    opacity: 0.4;
+    font-size: 0.8rem;
+}
+
+
+.escribir{
+    margin-left: 15px;
+    border-radius: 8px;
+    height: 40px;
+    width: 81%;
+    font-size: 1.2rem;
+}
+
+.enviar_msj{
+    background-color: rgba(0, 255, 179, 0.493);
+    height: 68px;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+.boton_msj{
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    
+    .img_msj{    
+    border-radius: 50%;
+    height: 40px;
+    margin: -5px;
+
+    }
+}

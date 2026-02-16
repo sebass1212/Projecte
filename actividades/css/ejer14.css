@@ -1,0 +1,16 @@
+.parrafo_1 .strong{
+    font-weight: bold;
+}
+
+.parrafo_2{
+    text-transform: uppercase;
+
+    .strong{
+        font-weight: bold;
+    }
+}
+
+.resaltado{
+    background-color: yellow;
+   
+}

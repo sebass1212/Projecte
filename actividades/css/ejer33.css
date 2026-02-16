@@ -1,0 +1,4 @@
+img{
+    border: 1rem solid;
+    border-image: linear-gradient(to top, red, rgb(0, 217, 255)) 1;
+}

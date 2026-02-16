@@ -1,0 +1,19 @@
+.navegador {
+    list-style: none;           
+    display: inline-flex;
+}
+
+li {
+    padding: 30px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    width: 100px;
+    background-color: #a6ff00;
+    color: rgb(219, 31, 31);
+    border-radius: 5px;
+}

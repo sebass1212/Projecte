@@ -1,0 +1,46 @@
+* {
+    font-style: inherit;
+       
+ }
+
+ .titulo{
+     text-align: center;
+     font-size: 4rem;
+     font-weight: 900;
+     
+     margin-bottom: -2px;
+     letter-spacing: 0.8rem;
+ }
+ 
+ .autor{
+     text-align: center;
+     font-size: 1.2rem;
+     color: rgb(92, 161, 161);
+     word-spacing: 0.5rem;
+   
+ }
+
+ .prologo{
+     font-size: 1.5rem;
+     text-transform: uppercase;
+ }
+
+ .texto{
+     .parrafo_1{
+         text-align: justify;
+     }
+     .parrafo_2{
+         text-align: justify;
+     }
+ }
+
+ .titulo:hover{
+     color: rgb(128, 202, 202);
+     font-style: italic;
+ }
+
+ .prologo:hover{
+     color: red;
+     font-weight: bold;
+
+ }

@@ -1,0 +1,20 @@
+.producto{
+    text-align: center;
+
+    .nom_producto{
+        font-size: 3rem;
+    }
+    .adicional{
+        font-size: 85%;
+    }
+
+    .modelo{
+        font-size:0.9rem;
+    }
+    .SKU{
+        font-size:0.9rem;
+    }
+    .precio{
+        font-size:0.9rem;
+    }
+}

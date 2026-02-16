@@ -1,0 +1,6 @@
+svg{
+    margin: 5rem;
+}
+svg:hover{
+    transform: scale(2);
+}

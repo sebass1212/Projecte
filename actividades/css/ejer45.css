@@ -1,0 +1,28 @@
+  
+        input{
+            margin: 0.7rem;
+            border: 1px solid black;
+            border-radius: 5px;
+            
+        }
+
+        input:focus{
+            transition-duration: 0.6s;
+            font-size: 0.9rem;
+            border-color: white;
+            outline: none;
+            box-shadow: 0.3rem 0.3rem 1rem black;
+        }
+
+        button{
+            margin-top: 0.5rem;
+            border-radius: 5px;
+            padding-block: 0.5rem;
+            width: 5rem;
+
+        }
+
+        button:hover{
+            transition-duration: 0.5s;
+            background-color: rgb(151, 212, 58);
+        }

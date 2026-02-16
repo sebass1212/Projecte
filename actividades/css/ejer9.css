@@ -1,0 +1,9 @@
+:root{
+    --color-negro:#000000;
+}
+
+
+.carta .ocultar{
+   background-color: var(--color-negro);
+   color: var(--color-negro);
+}
