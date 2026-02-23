@@ -175,8 +175,6 @@ a{
     color:  #5A9E60;
 }
 
-        
-
 
 
         
@@ -187,8 +185,7 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    margin-inline: -1rem; 
-    margin-bottom: -1rem;
+    margin: -1rem;
   }
   
 
