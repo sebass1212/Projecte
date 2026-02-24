@@ -62,8 +62,9 @@ html {
   padding-block: 3rem;
   height: auto;
   min-width: 20rem;
-  max-width: 30rem;
   margin-block: 5rem;
+  align-items: center;
+  text-align: center;
   h1{
     text-align: center;
     font-size: 2rem;
@@ -72,7 +73,7 @@ html {
   }
   form{
     margin-inline:auto ;
-    max-width: 10rem;
+    width: 40%;
     text-align: center;
     input{
       width: 100%;
